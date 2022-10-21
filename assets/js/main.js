@@ -48,3 +48,7 @@ function start(){
     }
 
 }
+
+function clearBox(){
+    document.getElementById('container').innerHTML = "";
+}
