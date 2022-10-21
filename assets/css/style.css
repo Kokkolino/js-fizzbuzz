@@ -10,12 +10,21 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    flex-wrap: wrap;
+}
+
+form{
+    text-align: center;
+    flex-basis: 100%;
 }
 
 #container{
+    
     display: flex;
-    justify-content:space-between ;
-    width:1200px;
+    justify-content:flex-start;
+    width:1198px;
+    gap: 22px;
+    flex-wrap: wrap;
     background-color: red;
 }
 
@@ -23,7 +32,6 @@ body{
     width: 100px;
     height: 100px;
     border: 1px solid black;
-    margin:20px 10px;
     text-align: center;
     vertical-align: middle;
 }
